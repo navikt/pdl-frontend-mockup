@@ -1,0 +1,9 @@
+.input-component-small {
+    max-width: 145px;
+    width: 100%;
+}
+
+.input-component-medium {
+    max-width: 305px;
+    width: 100%;
+}

@@ -1,54 +1,21 @@
-# React + TypeScript + Vite
+# PDL-mockup (frontend lekeplass)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dette er kun en "lekeplass" for utprøvninger i frontend for pdl-appen. Årsaken til at vi har utviklet denne appen er
+pga. vi holder på med redesign av pdl-appen og utforsker bedre måter å formidle nye eller endrede designs til teamet.
 
-Currently, two official plugins are available:
+## Komme i gang
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Kjør appen lokalt: `npm run dev`
 
-## Expanding the ESLint configuration
+Foreløpig er det ingen kommunikasjon med API'er. All testdata vil kjøres lokalt i denne appen.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-    extends: [
-        // Remove ...tseslint.configs.recommended and replace with this
-        ...tseslint.configs.recommendedTypeChecked,
-        // Alternatively, use this for stricter rules
-        ...tseslint.configs.strictTypeChecked,
-        // Optionally, add this for stylistic rules
-        ...tseslint.configs.stylisticTypeChecked,
-    ],
-    languageOptions: {
-        // other options...
-        parserOptions: {
-            project: ['./tsconfig.node.json', './tsconfig.app.json'],
-            tsconfigRootDir: import.meta.dirname,
-        },
-    },
-})
-```
+## Henvendelser
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Spørsmål knyttet til koden eller repositoryet kan stilles som issues her på GitHub eller du kan sende mail med spørsmål
+til bendik.berntsen@nav.no.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### For Nav-ansatte
 
-export default tseslint.config({
-    plugins: {
-        // Add the react-x and react-dom plugins
-        'react-x': reactX,
-        'react-dom': reactDom,
-    },
-    rules: {
-        // other rules...
-        // Enable its recommended typescript rules
-        ...reactX.configs['recommended-typescript'].rules,
-        ...reactDom.configs.recommended.rules,
-    },
-})
-```
+Interne henvendelser kan sendes via Slack privat til Bendik Berntsen. 

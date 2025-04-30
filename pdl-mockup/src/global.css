@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import '@navikt/ds-css' layer(components);
+
+@config '../tailwind.config.js';
+
+.magneta-strong {
+    color: #b65781;
+}
+
+.magneta-subtle {
+    background-color: #ECCAD6;
+}
+
+.tagstyling {
+    background-color: #EEF6FC;
+    border-color: #417DA0;
+}
+
+@theme {
+    --color-personcard-action: #F1F7FF;
+}
