@@ -1,4 +1,4 @@
-# PDL-mockup (frontend lekeplass)
+# PDL-mockup (frontend mockup)
 
 Dette er kun en "lekeplass" for utprøvninger i frontend for pdl-appen. Årsaken til at vi har utviklet denne appen er
 pga. vi holder på med redesign av pdl-appen og utforsker bedre måter å formidle nye eller endrede designs til teamet.
